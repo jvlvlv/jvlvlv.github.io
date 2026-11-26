@@ -3,9 +3,9 @@
   'use strict';
 
   var SITE = {
-    name: '智能车手记',
-    tagline: '一个普通学生和一辆小车的故事：备赛、调车、翻车、再爬起来的全过程记录。',
-    author: '你的名字',
+    name: '橘侣侣的技术博客',
+    tagline: '简简单单记录一个故事',
+    author: '橘侣侣',
     github: ''        // 例如 'https://github.com/yourname'，留空则不显示
   };
 
