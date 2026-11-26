@@ -89,11 +89,11 @@ code {
 .brand-mark {
   display: grid; place-items: center;
   width: 26px; height: 26px; border-radius: 8px;
-  background: linear-gradient(140deg, var(--accent), #0a4bb0);
-  color: #fff; font-size: 13px; line-height: 1;
-  box-shadow: 0 2px 8px -2px rgba(22, 104, 220, .6);
+  background: url("../images/logo.png") center / cover no-repeat;
+  color: transparent; font-size: 13px; line-height: 1;
+  box-shadow: 0 2px 8px -2px rgba(20, 35, 55, .35);
 }
-[data-theme="dark"] .brand-mark { background: linear-gradient(140deg, #59a6ff, #1668dc); color: #06121f; }
+[data-theme="dark"] .brand-mark { background: url("../images/logo.png") center / cover no-repeat; color: transparent; }
 
 .nav { display: flex; align-items: center; gap: 4px; }
 .nav a {
