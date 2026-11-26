@@ -183,7 +183,7 @@
     }
 
     var post = posts[idx];
-    document.title = post.title + ' · ' + SITE.name;
+       document.title = post.title;
 
     function nav(target, dir) {
       if (!target) return '<span class="disabled"></span>';
