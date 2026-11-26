@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b7cff"/>
+      <stop offset="1" stop-color="#1252b8"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#e6ebf2" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="720" height="380" fill="#fbfcfd"/>
+  <rect width="720" height="380" fill="url(#grid)"/>
+
+  <text x="28" y="38" font-size="17" fill="#1b2430" font-weight="700">小车传感器布局（示意）</text>
+  <text x="28" y="60" font-size="12" fill="#8b98a8">俯视图 · 比例为示意，不是实际尺寸</text>
+
+  <!-- 车体 -->
+  <rect x="250" y="120" width="220" height="150" rx="16" fill="url(#body)" opacity="0.12" stroke="#1252b8" stroke-width="2"/>
+  <text x="360" y="200" font-size="13" fill="#1252b8" text-anchor="middle" opacity="0.8">车体</text>
+
+  <!-- 车轮 -->
+  <rect x="236" y="132" width="14" height="42" rx="6" fill="#2a3444"/>
+  <rect x="470" y="132" width="14" height="42" rx="6" fill="#2a3444"/>
+  <rect x="236" y="220" width="14" height="42" rx="6" fill="#2a3444"/>
+  <rect x="470" y="220" width="14" height="42" rx="6" fill="#2a3444"/>
+
+  <!-- 电感 -->
+  <circle cx="268" cy="150" r="9" fill="none" stroke="#d9822b" stroke-width="2.5"/>
+  <circle cx="452" cy="150" r="9" fill="none" stroke="#d9822b" stroke-width="2.5"/>
+
+  <!-- 摄像头 -->
+  <rect x="344" y="140" width="32" height="20" rx="4" fill="#2a3444"/>
+  <circle cx="360" cy="150" r="6" fill="#0f141a"/>
+
+  <!-- 主控 -->
+  <rect x="322" y="196" width="76" height="48" rx="6" fill="#fff" stroke="#8b98a8" stroke-width="1.5"/>
+  <text x="360" y="225" font-size="11" fill="#5b6b7d" text-anchor="middle">主控</text>
+
+  <!-- 舵机 -->
+  <rect x="352" y="252" width="16" height="14" rx="3" fill="#2a3444"/>
+
+  <!-- 引线 -->
+  <path d="M268 159 L268 186 L322 210" fill="none" stroke="#d9822b" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <path d="M452 159 L452 186 L398 210" fill="none" stroke="#d9822b" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <path d="M344 150 L312 172 L322 196" fill="none" stroke="#8b98a8" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <path d="M360 244 L360 252" fill="none" stroke="#8b98a8" stroke-width="1.2"/>
+
+  <!-- 标注 -->
+  <g font-size="12" fill="#5b6b7d">
+    <text x="196" y="154" text-anchor="end">左电感</text>
+    <line x1="200" y1="150" x2="256" y2="150" stroke="#c9d2de" stroke-width="1"/>
+    <text x="524" y="154">右电感</text>
+    <line x1="464" y1="150" x2="518" y2="150" stroke="#c9d2de" stroke-width="1"/>
+    <text x="430" y="134">摄像头</text>
+    <text x="410" y="230">主控板</text>
+    <text x="376" y="264">舵机</text>
+    <text x="196" y="196" text-anchor="end">驱动轮</text>
+    <line x1="200" y1="192" x2="234" y2="200" stroke="#c9d2de" stroke-width="1"/>
+  </g>
+
+  <text x="28" y="352" font-size="11.5" fill="#a8b3c1">在 images/ 里放自己的图，比这张示意图好用得多。</text>
+</svg>
