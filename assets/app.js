@@ -4,7 +4,7 @@
 
   var SITE = {
     name: '橘侣侣的技术博客',
-    tagline: '简简单单记录一个故事',
+    tagline: '见证未来的奇械公的诞生',
     author: '橘侣侣',
     github: ''        // 例如 'https://github.com/yourname'，留空则不显示
   };
